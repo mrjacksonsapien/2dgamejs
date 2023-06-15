@@ -4,7 +4,7 @@
 I basically just tried to simulate a screen (again) but this time in JS. In electricity, all circuits are mostly linear and since al pixels are connected in a chain in an array,
 I tried to figure out how to make a matrix out of it. Note that the method I used is definitly not the best but in my opinion it's still pretty much summing up how
 x and y coordinates and matrix is simulated for screens. I decided to create a div and added other divs inside of it that will be considered as the pixels.
-I defined a width and height for the screen and basically since I'm too lazy to make fancy css stuff I just added a <br> after every pixel that is considered the last of it's
+I defined a width and height for the screen and basically since I'm too lazy to make fancy css stuff I just added a \<br\> after every pixel that is considered the last of it's
 row. and that's pretty much how I created the "physical" display. I did not implement any x and y coordinates system since I'm a bit lazy (again) but the computer is pretty
 much using the good logic to navigate in the grid and set it's bounds.
 
