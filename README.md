@@ -10,7 +10,7 @@ much using the good logic to navigate in the grid and set it's bounds.
 
 ## The game
 So for game the way I change the things is (weirdly) not with a framerate, refresh rate or whatever you like to call it but instead I just added classes to each of my pixels
-and whenever a pixel is "filled" or occupied well it got a class and when it's not occupied anymore well there's just no more classes. Now I know what you might say: "It's actually a refreshrate since your computer screen is constantly getting redrawn but I did not simulate any interval to clear the grid and redraw it again after a certain amount of time".
+and whenever a pixel is "filled" or occupied well it got a class and when it's not occupied anymore well there's just no more classes. Now I know what you might say: "It's actually a refreshrate since your computer screen is constantly getting redrawn" but I did not simulate any interval to clear the grid and redraw it again after a certain amount of time.
 The player can move with WASD and use mouseclick1 and 2 to place or break blocks. How the game starts is the program places the player in a random location and then later 
 on the map generates a certain amount of blocks or "terrain" randomly with taking care of not "deleting" or occupying the player's position 
 (which happened during development and made me realize I needed to do something about it). I was a bit inspired
